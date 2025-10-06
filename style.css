@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./assents/img-fundo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.login-container {
+  background:  #0f0f1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 247, 255, 0.5);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color:  #00f7ff;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background:  #ffffff;
+  box-shadow:  0px 5px 15px #00f7ff1c;
+  color:  #0f0f1e;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 10px;
+}
+
+.login-container button:hover {
+  background: rgba(0, 247, 255, 0.5);
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
+}
