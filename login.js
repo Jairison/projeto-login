@@ -2,7 +2,7 @@
 
 // Usuários "mockados" (apenas exemplo)
 const users = [
-  { username: "admin", password: "1234" },
+  { username: "admin", password: "12345" },
   { username: "Jairison", password: "12345" }
 ];
 
