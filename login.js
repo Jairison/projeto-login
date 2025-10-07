@@ -3,7 +3,7 @@
 // Usuários "mockados" (apenas exemplo)
 const users = [
   { username: "admin", password: "1234" },
-  { username: "Jairison", password: "1010" }
+  { username: "Jairison", password: "12345" }
 ];
 
 document.getElementById("loginForm").addEventListener("submit", function(e) {
